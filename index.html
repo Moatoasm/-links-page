@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>زياد جمال | مبرمج ومطور ويب</title>
-    <meta name="description" content="موقع معتصم  الشخصي يعرض مشروعاتي التقنية في تطوير مواقع الويب والبوتات، بالإضافة إلى خدمات السوشيال ميديا عبر منصتي المحرز لتزويد المتابعين. هنا يمكنك التعرف على أعمالي وتواصل معي مباشرة.">
+    <meta name="description" content="موقع زياد جمال الشخصي يعرض مشروعاتي التقنية في تطوير مواقع الويب والبوتات، بالإضافة إلى خدمات السوشيال ميديا عبر منصتي المحرز لتزويد المتابعين. هنا يمكنك التعرف على أعمالي وتواصل معي مباشرة.">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;600&display=swap" rel="stylesheet">
     <style>
@@ -209,26 +209,41 @@
         <div class="profile-img">
             <img src="me.jpg" alt="صورة زياد جمال">
         </div>
-        <h1 id="title">Motasem Ail</h1>
+        <h1 id="title">روابط زياد جمال</h1>
         <!-- أزرار السوشيال ميديا -->
         <a href="https://t.me/almohrez" target="_blank" class="link">
-            <i class="fab fa-telegram"></i> <span id="@MOTASEMAli444">تليجرام</span>
+            <i class="fab fa-telegram"></i> <span id="telegram-text">تليجرام</span>
         </a>
-        <a href="https://www.facebook.com/profile.php?id=100086346081393" target="_blank" class="link">
+        <a href="https://www.facebook.com/almohrez15" target="_blank" class="link">
             <i class="fab fa-facebook"></i> <span id="facebook-text">فيسبوك</span>
         </a>
         <a href="https://www.instagram.com/elmohrez_" target="_blank" class="link">
-            <i class="fab fa-instagram"></i> <span id=>"https://www.instagram.com/moatasem8325/profilecard/?igsh=ZmFsYnV2MzV1Z25r">إنستجرام</span>
+            <i class="fab fa-instagram"></i> <span id="instagram-text">إنستجرام</span>
         </a>
-        <a href="https://www.snapchat.com/add/moatasemalwarfa?share_id=pdqcTCEY6rI&locale=ar-LY" target="_blank" class="link">
+        <a href="https://music.apple.com/profile/almohrez" target="_blank" class="link">
+            <i class="fab fa-apple"></i> <span id="apple-music-text">أبل ميوزيك</span>
+        </a>
+        <a href="https://www.snapchat.com/add/b4_vo" target="_blank" class="link">
             <i class="fab fa-snapchat"></i> <span id="snapchat-text">سناب شات</span>
         </a>
-        <a href="https://www.tiktok.com/@moatasem.alwarfall?_t=8sNQ4Cx0Q1m&_r=1" target="_blank" class="link">
+        <a href="https://www.tiktok.com/@pv_vo" target="_blank" class="link">
             <i class="fab fa-tiktok"></i> <span id="tiktok-text">تيك توك</span>
         </a>
         <a href="https://discord.com/users/elmohrez" target="_blank" class="link">
             <i class="fab fa-discord"></i> <span id="discord-text">ديسكورد</span>
         </a>
+
+        <!-- زر "معلومات عني" -->
+        <a href="javascript:void(0);" class="link" onclick="showPopup()">
+            <i class="fas fa-user"></i> <span id="about-text">معلومات عني</span>
+        </a>
+    </div>
+
+    <!-- نافذة منبثقة للمعلومات -->
+    <div class="popup" id="popup">
+        <div class="popup-content">
+            <h2 id="about-title">معلومات عن زياد جمال</h2>
+            <p id="about-description">أنا زياد جمال، مبرمج مواقع ويب وبوتات تليجرام وواتساب. أعمل في مجال السوشيال ميديا، وأملك موقع المحرز لتزويد المتابعين وبيع خدمات السوشيال ميديا. يمكنك زيارة الموقع من خلال الرابط التالي: <a href="https://almohrez.store" target="_blank">المحرز</a>.</p>
             <button class="close-btn" onclick="closePopup()">إغلاق</button>
         </div>
     </div>
